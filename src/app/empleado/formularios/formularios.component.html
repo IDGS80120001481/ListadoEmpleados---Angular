@@ -1,0 +1,58 @@
+<br>
+<div class="formulario">
+    <form (submit)="agregar()" class="form-options">
+      <h2>Agregar empleados</h2>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col">
+            <div class="form-floating mb-3">
+              <input type="number" class="form-control" placeholder="Ingresa el ID" name="Numero empleado" [(ngModel)]="empleado.num_empleado"/>
+              <label for="floatingInput">Ingresa el ID: </label>
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" placeholder="Ingresa el nombre" name="Nombre" [(ngModel)]="empleado.nombre"/>
+              <label for="floatingInput">Ingresa el nombre: </label>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-start">
+          <div class="col">
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" placeholder="Ingresa el correo" name="Correo" [(ngModel)]="empleado.correo"/>
+              <label for="floatingInput">Ingresa el correo: </label>
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-floating mb-3">
+              <input type="tel" class="form-control" placeholder="Ingresa el telefono" name="Telefono" [(ngModel)]="empleado.telefono"/>
+              <label for="floatingInput">Ingresa el telefono: </label>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-start">
+          <div class="col">
+            <div class="form-floating mb-3">
+              <input type="date" class="form-control" placeholder="Ingresa la fecha de nacimiento" name="Nombre" [(ngModel)]="empleado.fecha_nacimiento"/>
+              <label for="floatingInput">Ingresa la fecha de nacimiento: </label>
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-group">
+              <label>Sexo</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" id="sexoHombre" name="sexo" [(ngModel)]="empleado.sexo" value="Hombre" required>
+                <label class="form-check-label" for="sexoHombre">Hombre</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" id="sexoMujer" name="sexo" [(ngModel)]="empleado.sexo" value="Mujer" required>
+                <label class="form-check-label" for="sexoMujer">Mujer</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="btn-design">Agregar</button>
+  </form>
+</div>

@@ -1,0 +1,11 @@
+.titulo {
+    border: 2px solid black;
+    width: 1000px;
+    background-color: #2471A3;
+    margin: 0 auto; /* Esto centra el div horizontalmente */
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color: white; /* Opcional, para mejor visibilidad del texto */
+}

@@ -1,0 +1,5 @@
+.tabla {
+    margin: 0 auto; /* Esto centra el div horizontalmente */
+    text-align: center;
+    width: 1000px;
+}

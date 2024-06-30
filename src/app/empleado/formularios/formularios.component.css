@@ -1,0 +1,23 @@
+.formulario {
+    max-width: 800px; 
+    width: 100%; 
+    margin: 0 auto; 
+    position: relative;
+}
+
+.btn-design{
+    padding: 17px 11px;
+    border: 1px solid #154360;
+    border-radius: 25px;
+    background-color: #FAFAFC;
+    outline: none;
+    color: #154360;
+    font-size: 16px;
+}
+
+.form-options{
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+    background: #F9F9F9;
+    padding: 25px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
